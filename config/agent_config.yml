@@ -1,0 +1,27 @@
+# Agent Configuration
+
+agents:
+  base:
+    type: "base_agent"
+    memory_size: 1000
+    reasoning_engine: "standard"
+    
+  autonomous:
+    type: "autonomous_agent"
+    independence_level: 0.8
+    learning_rate: 0.01
+    
+  learning:
+    type: "learning_agent"
+    model_type: "neural_network"
+    training_episodes: 1000
+    
+  reasoning:
+    type: "reasoning_agent"
+    reasoning_depth: 5
+    inference_engine: "forward_chaining"
+    
+  collaborative:
+    type: "collaborative_agent"
+    communication_protocol: "publish_subscribe"
+    team_size: 5

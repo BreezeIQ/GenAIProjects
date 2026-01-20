@@ -1,0 +1,23 @@
+# Environment Configuration
+
+environment:
+  name: "Agentic Environment"
+  type: "simulator"
+  
+  simulation:
+    timestep: 0.1
+    max_steps: 10000
+    rendering: false
+    
+  agents:
+    spawn_rate: 1
+    max_agents: 10
+    
+  world:
+    size_x: 1000
+    size_y: 1000
+    obstacles: 50
+    
+  resources:
+    renewable: true
+    generation_rate: 10

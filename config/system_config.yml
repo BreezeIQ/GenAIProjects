@@ -1,0 +1,21 @@
+# System Configuration
+
+system:
+  name: "My Agent Project"
+  version: "0.2.0"
+  debug: false
+  
+environment:
+  type: "simulation"
+  max_agents: 10
+  simulation_speed: 1.0
+  
+storage:
+  type: "file"
+  path: "./data"
+  checkpoint_interval: 100
+  
+performance:
+  max_threads: 4
+  memory_limit_gb: 8
+  timeout_seconds: 300
